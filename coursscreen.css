@@ -1,0 +1,131 @@
+/*
+   feuille de style en cascade (CSS) pour les cours
+   Pierre Langlois (pierre.langlois@polymtl.ca)
+   Tarek Ould Bachir (ouldbachir@ieee.org) -- a.k.a. 708
+   v.3.0 2005/12/09
+   v.3.1 2007/06/29
+   v.3.2 2010/02/22 - 708 : Ajout d'un bloc pour la tabluation <tab /> et medium size font 
+                            pour inserer du <medium>code</medium> dans le corps du texte 
+                            sans trop amocher.
+   v.3.3 2020/06/28 ajout de figcaption, .encadre, ....
+*/
+
+body {
+   background-color: white;
+   color: black;
+   margin-left: 5%;
+   margin-right: 5%;
+   font-family: Arial, sans-serif;
+}
+
+h1 {
+   background-color: transparent;
+   color: navy;
+   text-align: center;
+   font-size: xx-large;
+   font-weight: normal;
+}
+
+h2 {
+   color: navy;
+   background-color: transparent;
+   text-align: left;
+   font-size: x-large;
+   font-weight: normal;
+}
+
+h3 {
+   color: navy;
+   background-color: transparent;
+   text-align: left;
+   font-size: large;
+   font-weight: normal;
+}
+
+A:link, A:visited {
+   color: blue;
+   background-color: transparent;
+   text-decoration: none;
+}
+
+A:hover, A:active {
+   color: red;
+   background-color: transparent;
+   text-decoration: underline;
+}
+
+UL {
+   list-style-type: square;
+   margin-top: 0;
+   margin-bottom: 0;
+   padding-left: 1em;
+}
+
+OL        { list-style-type: decimal }
+OL OL     { list-style-type: lower-alpha }
+OL OL OL  { list-style-type: lower-roman }
+
+
+.impaire { background-color: lightgrey; }
+.paire { background-color: white; }
+.conge {background-color: lightgreen;}
+.examen {background-color: red;}
+
+td {
+   padding: 2px;
+}
+
+.center {
+   text-align: center;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.small {
+   font-size: small;
+}
+
+.medium {
+   font-size: 0.85em;
+}
+
+code {
+   font-family: "Courier new", monospace;
+   font-size: normal;
+}
+
+tab:before{
+   content: '\00a0\00a0\00a0';
+}
+
+figcaption {
+   color: navy;
+   text-align: center;
+}
+
+.encadre {
+/*  color : blue; */
+  border-width : 10 px;
+  border-style : solid;
+  border-color : blue;
+}
+
+
+bloc-gauche {
+  float: left;
+  width: 50%;
+}
+
+bloc-droite {
+  float: right;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+

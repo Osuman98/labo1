@@ -1,0 +1,82 @@
+/*
+   feuille de style en cascade (CSS) pour impression noir et blanc
+   Pierre Langlois (pierre.langlois@polymtl.ca)
+   Tarek Ould Bachir (ouldbachir@ieee.org) -- a.k.a. 708
+   v.1.0 2005/08/22
+   v.1.1 2010/02/22 - 708 : Ajout d'un bloc pour la tabluation <tab /> et medium size font 
+                            pour inserer du <medium>code</medium> dans le corps du texte 
+                            sans trop amocher.
+*/
+
+body {
+   background-color: white;
+   color: black;
+   font-family: "Times New Roman", serif;
+   font-size: 10pt;
+   padding-left: 0em;
+   padding-right: 0em;
+}
+
+
+h1, h2, h3, th {
+   font-family: Arial, sans-serif;
+   color: black;
+   font-weight: normal;
+}
+
+h1 { font-size: 14pt; }
+h2 { font-size: 12pt; }
+h3 { font-size: 10pt; }
+
+
+.centre { text-align: center; }
+.droite { text-align: right; }
+
+
+
+UL              { list-style-type: square; }
+OL              { list-style-type: decimal; }
+OL OL         { list-style-type: lower-alpha; }
+OL OL OL    { list-style-type: lower-roman; }
+
+
+A:link, A:visited {
+   text-decoration: none;
+   color: black;
+}
+
+UL.navbar { display: none; }
+
+ul {
+   margin: 0em;
+   padding-top: 0em;
+   padding-left: 1em;
+   padding-bottom: 0em;
+}
+
+li {
+   margin: 0em;
+   padding: 0em;
+}
+
+td {
+   padding: 0em;
+   margin: 0em;
+   background-color: white;
+   color: black;
+   font-family: "Times New Roman", serif;
+   font-size: 10pt;
+}
+
+code {
+   font-family: "Courier new", monospace;
+   font-size: normal;
+}
+
+.medium {
+   font-size: 0.85em;
+}
+
+tab:before{
+   content: '\00a0\00a0\00a0';
+}
