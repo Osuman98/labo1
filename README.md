@@ -29,13 +29,13 @@ Objectifs
 
 À la fin de ce laboratoire, vous devrez être capable d'appliquer le flot de conception d'un système numérique à l'aide d'outils de conception :
 
-modéliser un module combinatoire en VHDL;
+* modéliser un module combinatoire en VHDL;
 
-vérifier le module par simulation à l'aide d'un banc d'essai;
+* vérifier le module par simulation à l'aide d'un banc d'essai;
 
-synthétiser et implémenter le module
+* synthétiser et implémenter le module
 
-générer le fichier de configuration pour le FPGA, programmer le FPGA et vérifier le fonctionnement du module sur une carte de développement.
+* générer le fichier de configuration pour le FPGA, programmer le FPGA et vérifier le fonctionnement du module sur une carte de développement.
 
 Partie 1 : Préparation au laboratoire
 -------------------------------------
@@ -249,9 +249,9 @@ Faites la synthèse, l'implémentation, la génération du fichier de configurat
 Partie 5: au-delà du A - amélioration du module pour un grand nombre d'entrées
 ------------------------------------------------------------------------------
 
-\[<span style="font-style: italic;">Mise en garde. Compléter correctement les parties 3 et 4 peut donner une note de 17 / 20 (85%), ce qui peut normalement être interprété comme un A. La partie 5 demande du travail supplémentaire qui sort normalement des attentes du cours. Il n'est pas nécessaire de la compléter pour réussir le cours ni pour obtenir une bonne note. Il n'est pas recommandé de s'y attaquer si vous éprouvez des difficultés dans un autre cours. La partie 5 propose  défi pour les personnes qui souhaitent s'investir davantage dans le cours INF3500 en toute connaissance de cause.</span>\]
+\[***Mise en garde. Compléter correctement les parties 3 et 4 peut donner une note de 17 / 20 (85%), ce qui peut normalement être interprété comme un A. La partie 5 demande du travail supplémentaire qui sort normalement des attentes du cours. Il n'est pas nécessaire de la compléter pour réussir le cours ni pour obtenir une bonne note. Il n'est pas recommandé de s'y attaquer si vous éprouvez des difficultés dans un autre cours. La partie 5 propose  défi pour les personnes qui souhaitent s'investir davantage dans le cours INF3500 en toute connaissance de cause.***\]
 
-a. Proposez <span style="font-style: italic;">\*\*deux\*\*</span> manières de décrire le module en VHDL afin qu'il accommode un grand nombre d'entrées. Expliquez complètement vos deux suggestions à l'aide d'exemples.
+a. Proposez \*\**deux*\*\* manières de décrire le module en VHDL afin qu'il accommode un grand nombre d'entrées. Expliquez complètement vos deux suggestions à l'aide d'exemples.
 
 b. Remettez le code de votre module qui fonctionne avec W = 16, ainsi que le fichier de configuration correspondant qui peut être programmé sur la carte utilisant les 16 commutateurs.
 
