@@ -42,23 +42,23 @@ Partie 1 : Préparation au laboratoire
 
 Avant le début de la période de laboratoire, suivre les étapes suivantes:
 
-Obtenir [une carte Digilent Basys 3](https://store.digilentinc.com/basys-3-artix-7-fpga-trainer-board-recommended-for-introductory-users/). Il y a plusieurs fournisseurs, mais le meilleur choix est probablement directement du manufacturier Digilent.
+- Obtenir [une carte Digilent Basys 3](https://store.digilentinc.com/basys-3-artix-7-fpga-trainer-board-recommended-for-introductory-users/). Il y a plusieurs fournisseurs, mais le meilleur choix est probablement directement du manufacturier Digilent.
 
-Obtenir un câble USB pour relier votre ordinateur à la carte. Le connecteur de la carte [est de type USB 2.0 Micro-B](https://en.wikipedia.org/wiki/USB_hardware). Vérifiez de quel type de connecteur USB votre ordinateur a besoin. Les plus fréquents sont USB A (Type-A) et [USB-C](https://en.wikipedia.org/wiki/USB-C).
+- Obtenir un câble USB pour relier votre ordinateur à la carte. Le connecteur de la carte [est de type USB 2.0 Micro-B](https://en.wikipedia.org/wiki/USB_hardware). Vérifiez de quel type de connecteur USB votre ordinateur a besoin. Les plus fréquents sont USB A (Type-A) et [USB-C](https://en.wikipedia.org/wiki/USB-C).
 
-Installer les outils suivants sur votre ordinateur - <span style="font-style: italic;">attention, il faut prévoir au moins deux heures pour le téléchargement et l'installation</span> :
+- Installer les outils suivants sur votre ordinateur - <span style="font-style: italic;">attention, il faut prévoir au moins deux heures pour le téléchargement et l'installation</span> :
 
-1.  [Active-HDL, en version étudiante](https://www.aldec.com/en/products/fpga_simulation/active_hdl_student), de la [compagnie Aldec](https://www.aldec.com/).
+  - [Active-HDL, en version étudiante](https://www.aldec.com/en/products/fpga_simulation/active_hdl_student), de la [compagnie Aldec](https://www.aldec.com/).
     \[Note : Vous pouvez utiliser tout éditeur de texte de votre choix pour entrer votre code VHDL, et l'outil de votre choix pour en faire la simulation.
     Cependant, dans le cadre du laboratoire, seul Active-HDL sera officiellement supporté.\]
-2.  [Xilinx Vivado WebPack](https://www.xilinx.com/products/design-tools/vivado/vivado-webpack.html), de la [compagnie Xilinx](https://www.xilinx.com/).
+  - [Xilinx Vivado WebPack](https://www.xilinx.com/products/design-tools/vivado/vivado-webpack.html), de la [compagnie Xilinx](https://www.xilinx.com/).
 
-Préparer la matière du cours de la semaine 1 : Introduction, et en particulier :
+- Préparer la matière du cours de la semaine 1 : Introduction, et en particulier :
 
-1.  les diapositives de la série 0103FlotDeConception; et,
-2.  les diapositives de la série 0104IntroVHDL.
+  - les diapositives de la série 0103FlotDeConception; et,
+  - les diapositives de la série 0104IntroVHDL.
 
-Choisir un/e co-équipier/ère. Vous pouvez utiliser le forum du cours. Il peut être possible de travailler seul(e), pour cela il faut en discuter avec le chargé de laboratoire qui décidera en fonction du nombre de demandes. Il n'y aura pas d'équipe de trois personnes.
+- Choisir un/e co-équipier/ère. Vous pouvez utiliser le forum du cours. Il peut être possible de travailler seul(e), pour cela il faut en discuter avec le chargé de laboratoire qui décidera en fonction du nombre de demandes. Il n'y aura pas d'équipe de trois personnes.
 
 Partie 2 : Mise en oeuvre de la carte Basys 3
 ---------------------------------------------
