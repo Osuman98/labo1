@@ -55,8 +55,8 @@ Avant le début de la période de laboratoire, suivre les étapes suivantes:
 
 4. Préparer la matière du cours de la semaine 1 : Introduction, et en particulier :
 
-  1. les diapositives de la série 0103FlotDeConception; et,
-  2. les diapositives de la série 0104IntroVHDL.
+    1. les diapositives de la série 0103FlotDeConception; et,
+    2. les diapositives de la série 0104IntroVHDL.
 
 5. Choisir un/e co-équipier/ère. Vous pouvez utiliser le forum du cours. Il peut être possible de travailler seul(e), pour cela il faut en discuter avec le chargé de laboratoire qui décidera en fonction du nombre de demandes. Il n'y aura pas d'équipe de trois personnes.
 
