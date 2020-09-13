@@ -48,10 +48,10 @@ Avant le début de la période de laboratoire, suivre les étapes suivantes:
 
 3. Installer les outils suivants sur votre ordinateur - <span style="font-style: italic;">attention, il faut prévoir au moins deux heures pour le téléchargement et l'installation</span> :
 
-  1. [Active-HDL, en version étudiante](https://www.aldec.com/en/products/fpga_simulation/active_hdl_student), de la [compagnie Aldec](https://www.aldec.com/).
+    1. [Active-HDL, en version étudiante](https://www.aldec.com/en/products/fpga_simulation/active_hdl_student), de la [compagnie Aldec](https://www.aldec.com/).
     \[Note : Vous pouvez utiliser tout éditeur de texte de votre choix pour entrer votre code VHDL, et l'outil de votre choix pour en faire la simulation.
     Cependant, dans le cadre du laboratoire, seul Active-HDL sera officiellement supporté.\]
-  2. [Xilinx Vivado WebPack](https://www.xilinx.com/products/design-tools/vivado/vivado-webpack.html), de la [compagnie Xilinx](https://www.xilinx.com/).
+    2. [Xilinx Vivado WebPack](https://www.xilinx.com/products/design-tools/vivado/vivado-webpack.html), de la [compagnie Xilinx](https://www.xilinx.com/).
 
 4. Préparer la matière du cours de la semaine 1 : Introduction, et en particulier :
 
