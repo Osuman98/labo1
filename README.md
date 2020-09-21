@@ -260,8 +260,8 @@ c. Remettez le code de votre module qui fonctionne avec toute valeur de W entre 
 ------------------------------------------------------------------------
 Remise
 ------------------------------------------------------------------------
-La remise se fait directement sur votre repo git, donc assurez vous de push toute vos modification.
-Voici les fichiers qui sont attendu, placé les à la racine du repo.
+La remise se fait directement sur votre repo git, donc assurez vous de push toutes vos modifications.
+Voici les fichiers qui sont attendus, placé les à la racine du repo.
 
 ### partie 3c et d:
 - vote_labo1.vhd: ou vous avez corrigé les erreurs
