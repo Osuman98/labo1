@@ -263,20 +263,21 @@ Remise
 La remise se fait directement sur votre repo git, donc assurez vous de push toute vos modification.
 Voici les fichiers qui sont attendu, placé les à la racine du repo.
 
-#partie 3c et d:
+# partie 3c et d:
 - vote_labo1.vhd: ou vous avez corrigé les erreurs
 
-#partie 4 
+# partie 4 
 - vote_labo1_ameliore.vhd 
 - fichier-de-programmation.bit: qui fonctionne pour W=5
 
-#partie 5
+# partie 5
 - partie5.md : pour décrire vos deux solutions (Partie 5 a.)
 - vote_labo1_partie5.vhd 
 - fichier-de-programmation-partie5.bit: qui fonctionne pour W=16 
 
 
-(optionel) CARTE.md: si vous utilisez la carte nexys mettez l'info dans ce fichier, il me faut aussi votre .xdc
+# (optionel) CARTE.md: si vous utilisez la carte nexys mettez l'info dans ce fichier, il me faut aussi votre .xdc
+
 ------------------------------------------------------------------------
 
 Barème de correction
