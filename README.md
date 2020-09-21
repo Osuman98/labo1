@@ -262,11 +262,14 @@ Remise
 ------------------------------------------------------------------------
 La remise se fait directement sur votre repo git, donc assurez vous de push toute vos modification.
 Voici les fichiers qui sont attendu, placé les à la racine du repo.
+
 #partie 3c et d:
 - vote_labo1.vhd: ou vous avez corrigé les erreurs
+
 #partie 4 
 - vote_labo1_ameliore.vhd 
 - fichier-de-programmation.bit: qui fonctionne pour W=5
+
 #partie 5
 - partie5.md : pour décrire vos deux solutions (Partie 5 a.)
 - vote_labo1_partie5.vhd 
